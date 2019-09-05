@@ -21,3 +21,8 @@ mk webapps
 copy <jenkins.war> <C:\ProgramData\chocolatey\lib\Tomcat\tools\apache-tomcat-9.0.24\webapps>
 <C:\ProgramData\chocolatey\lib\Tomcat\tools\apache-tomcat-9.0.24\bin\startup.bat>
 ```
+
+Git Pluggin
+
+Build
+
