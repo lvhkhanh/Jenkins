@@ -16,5 +16,8 @@ java -jar jenkins.war
 ```
 choco install tomcat -y
 refreshenv
-cd C:\ProgramData\chocolatey\lib\Tomcat\tools\apache-tomcat-9.0.24
+cd <C:\ProgramData\chocolatey\lib\Tomcat\tools\apache-tomcat-9.0.24>
+mk webapps
+copy <jenkins.war> <C:\ProgramData\chocolatey\lib\Tomcat\tools\apache-tomcat-9.0.24\webapps>
+<C:\ProgramData\chocolatey\lib\Tomcat\tools\apache-tomcat-9.0.24\bin\startup.bat>
 ```
