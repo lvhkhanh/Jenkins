@@ -1,5 +1,7 @@
 # Jenkins
 
+`docker pull jenkins/jenkins`
+
  [Jenkins Tutorial](https://www.tutorialspoint.com/jenkins/index.htm)
 
 ```
