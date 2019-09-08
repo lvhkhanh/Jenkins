@@ -2,6 +2,8 @@
 
 `docker pull jenkins/jenkins`
 
+`docker run -p 8080:8080 -p 50000:50000 jenkins`
+
  [Jenkins Tutorial](https://www.tutorialspoint.com/jenkins/index.htm)
 
 ```
