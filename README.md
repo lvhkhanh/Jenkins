@@ -7,8 +7,14 @@
  [Jenkins Tutorial](https://www.tutorialspoint.com/jenkins/index.htm)
 
 ```
-choco install jenkins
-refreshenv
+Install choco
+ @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+        Jenkins
+
+choco install --force jenkins -y && refreshenv
+jenkins.exe start
+jenkins.exe restart
+jenkins.exe stop
 ```
 
 ```
