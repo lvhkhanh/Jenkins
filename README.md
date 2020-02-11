@@ -7,7 +7,21 @@ https://jenkins.io/user-handbook.pdf
 
 EZ Templates
 
-##
+## Samples
+
+```
+pipeline {
+  agent any
+  options {
+    buildDiscarder(logRotator(numToKeepStr:'3'))
+  }
+  parameters {
+    string(name: 'GREETING',
+           defaultValue: 'Hello',
+           description: 'The way to say hello')
+  }
+}
+```
 
 [Jenkins](https://code-maven.com/jenkins)
 
