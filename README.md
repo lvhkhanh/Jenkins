@@ -2,6 +2,13 @@
 
 https://jenkins.io/user-handbook.pdf
 
+
+## Plugins
+
+EZ Templates
+
+##
+
 [Jenkins](https://code-maven.com/jenkins)
 
 `docker pull jenkins/jenkins`
