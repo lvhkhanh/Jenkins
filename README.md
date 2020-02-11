@@ -23,7 +23,11 @@ pipeline {
   stages {
     stage('Say Hi to ...') {
       steps {
-        
+        checkout scm:[
+          $class:'GitSCM',
+          branches:[[name:'*/master']],
+          userRemoteConfigs:[[
+            url:'file:///path/to/config']]]
       }
     }
   }
