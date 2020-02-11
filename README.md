@@ -28,6 +28,8 @@ pipeline {
           branches:[[name:'*/master']],
           userRemoteConfigs:[[
             url:'file:///path/to/config']]]
+            
+        // run shell, bat
       }
     }
   }
