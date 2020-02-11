@@ -5,7 +5,7 @@ https://jenkins.io/user-handbook.pdf
 
 ## Plugins
 
-EZ Templates
+EZ Templates, Job DSL
 
 ## Samples
 
@@ -35,6 +35,24 @@ pipeline {
   }
 }
 ```
+
+## Configuration
+
+Using Global share library
+```
+#!groovy
+@Library('jenkins-lib') _
+
+options = {
+  greeting: 'Hello',
+  reindeer: 'your name'
+}
+reinder(options)
+```
+## Types
+
+ Job DSL, Groovy
+
 
 [Jenkins](https://code-maven.com/jenkins)
 
