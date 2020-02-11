@@ -36,6 +36,35 @@ pipeline {
 }
 ```
 
+```
+DSL Script
+pipelineJob('name') {
+  description('Say hi to ..')
+  
+  logRotator {
+      numToKeep(3)
+  }
+  
+  parameters {
+    stringParam('GREETING', 'Hello', 'How to say hi')
+  }
+  
+  definition {
+    cpsScm {
+      scm {
+        git {
+          branch('*/master')
+          remote {
+            url: 'file:///path/to/project'
+          }
+        }
+        scriptPath('.Jenkinsfile')
+      }
+    }
+  }
+}
+```
+
 ## Configuration
 
 Using Global share library
