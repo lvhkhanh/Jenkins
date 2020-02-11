@@ -38,15 +38,22 @@ pipeline {
 
 ```
 DSL Script
-pipelineJob('name') {
-  description('Say hi to ..')
+
+names = ['name1', 'name2']
+
+names.each {n -> 
+  String name = n
+}
+
+pipelineJob(name) {
+  description('Say hi to ..' + name)
   
   logRotator {
       numToKeep(3)
   }
   
   parameters {
-    stringParam('GREETING', 'Hello', 'How to say hi')
+    stringParam('GREETING', 'Hello' + name, 'How to say hi')
   }
   
   definition {
