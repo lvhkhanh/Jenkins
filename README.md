@@ -20,6 +20,13 @@ pipeline {
            defaultValue: 'Hello',
            description: 'The way to say hello')
   }
+  stages {
+    stage('Say Hi to ...') {
+      steps {
+        
+      }
+    }
+  }
 }
 ```
 
