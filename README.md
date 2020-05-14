@@ -2,7 +2,8 @@
 
 https://jenkins.io/user-handbook.pdf
 
-
+## Courses
+### https://app.pluralsight.com/library/courses/building-modern-ci-cd-pipeline-jenkins/table-of-contents
 ## Plugins
 
 EZ Templates, Job DSL
