@@ -1,10 +1,22 @@
 # Jenkins
-
-https://jenkins.io/user-handbook.pdf
+## Official
+### https://www.cloudbees.com/jenkins/what-is-jenkins
+### https://www.jenkins.io/solutions/pipeline/
+### https://wiki.jenkins.io/display/JENKINS/Meet+Jenkins
+### https://www.jenkins.io/2.0/
+### https://jenkins.io/user-handbook.pdf
+### https://www.jenkins.io/doc/book/pipeline/
+### https://www.jenkins.io/
+### https://hub.docker.com/_/jenkins/
+### https://www.jenkins.io/download/
+### https://www.jenkins.io/doc/book/installing/
+### https://plugins.jenkins.io/
+### https://www.jenkins.io/doc/
 
 ## Courses
 ### https://app.pluralsight.com/library/courses/building-modern-ci-cd-pipeline-jenkins/table-of-contents
 ### https://app.pluralsight.com/library/courses/using-declarative-jenkins-pipelines/table-of-contents
+### https://www.guru99.com/jenkin-continuous-integration.html
 ## Plugins
 
 EZ Templates, Job DSL
@@ -130,3 +142,6 @@ Git Pluggin
 
 Build
 
+## Links
+### https://www.infoworld.com/article/3239666/what-is-jenkins-the-ci-server-explained.html
+### https://en.wikipedia.org/wiki/Jenkins_(software)
