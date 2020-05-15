@@ -7,7 +7,7 @@
 ### https://jenkins.io/user-handbook.pdf
 ### https://www.jenkins.io/doc/book/pipeline/
 ### https://www.jenkins.io/
-### https://hub.docker.com/_/jenkins/
+### https://hub.docker.com/r/jenkins/jenkins/
 ### https://www.jenkins.io/download/
 ### https://www.jenkins.io/doc/book/installing/
 ### https://plugins.jenkins.io/
