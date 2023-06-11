@@ -26,7 +26,12 @@
 EZ Templates, Job DSL
 
 ## Samples
-
+```
+node('agentLabel'){}
+```
+```
+agent 'agentLabel'
+```
 ```
 pipeline {
   agent any
