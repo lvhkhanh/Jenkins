@@ -154,3 +154,5 @@ Build
 ## Links
 ### https://www.infoworld.com/article/3239666/what-is-jenkins-the-ci-server-explained.html
 ### https://en.wikipedia.org/wiki/Jenkins_(software)
+## TODO:
+### Build parallel, keep queue 0
